@@ -20,8 +20,8 @@ npm run build
 
 The visitor-facing PDFs are stored in `public/documents/`:
 
-- `LiftIQ_Brochure (1).pdf`
-- `LiftIQ_Startup_Prof.pdf`
+- `LiftIQ_Brochure_new.pdf`
+- `LiftIQ_Startup_Profile_new (2).pdf`
 
 Document paths are centralized in `src/App.jsx` so filenames can be updated in one place.
 

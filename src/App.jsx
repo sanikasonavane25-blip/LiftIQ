@@ -6,13 +6,13 @@ const documents = {
     label: 'LiftIQ Brochure',
     description:
       'Discover the LiftIQ concept, the problem it addresses, how the proposed system works, its benefits, and its illustrative pricing model.',
-    path: `${import.meta.env.BASE_URL}documents/LiftIQ_Brochure%20(1).pdf`,
+    path: `${import.meta.env.BASE_URL}documents/LiftIQ_Brochure_new.pdf`,
   },
   profile: {
     label: 'LiftIQ Startup Profile',
     description:
       'Explore the LiftIQ startup concept, vision, mission, team, business model, and development roadmap.',
-    path: `${import.meta.env.BASE_URL}documents/LiftIQ_Startup_Prof.pdf`,
+    path: `${import.meta.env.BASE_URL}documents/LiftIQ_Startup_Profile_new%20(2).pdf`,
   },
 }
 
