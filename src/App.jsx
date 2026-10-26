@@ -16,10 +16,16 @@ const documents = {
   },
 }
 
+const promotionalVideo = {
+  fileUrl: 'https://drive.google.com/file/d/1NN4u3e5BNRE-dkUWwHcurmrhEF8fqp3k/view?usp=drive_link',
+  previewUrl: 'https://drive.google.com/file/d/1NN4u3e5BNRE-dkUWwHcurmrhEF8fqp3k/preview',
+}
+
 const navItems = [
   ['home', 'Home'],
   ['about', 'About Us'],
   ['how-it-works', 'How It Works'],
+  ['promotional-video', 'Promo'],
   ['documents', 'Brochure'],
   ['documents', 'Startup Profile'],
   ['contact', 'Contact Us'],
@@ -131,6 +137,24 @@ function App() {
             <div className="visual-line line-one"></div><div className="visual-line line-two"></div>
             <div className="hero-caption">Intelligence added to<br /><b>existing infrastructure.</b></div>
           </div>
+        </div>
+      </section>
+
+      <section id="promotional-video" className="section video-section">
+        <div className="container">
+          <div className="section-intro two-col">
+            <div><p className="eyebrow">SEE LIFTIQ IN ACTION</p><h2>Our <em>promo.</em></h2></div>
+            <p>Discover how LiftIQ brings predictive intelligence to the lifts buildings already have. Watch the promotional video to learn more about the vision behind the concept.</p>
+          </div>
+          <div className="video-frame">
+            <iframe
+              src={promotionalVideo.previewUrl}
+              title="LiftIQ promotional video"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <a className="video-fallback" href={promotionalVideo.fileUrl} target="_blank" rel="noreferrer">Open the promotional video in Google Drive <Icon name="arrow" /></a>
         </div>
       </section>
 
